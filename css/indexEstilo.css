@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://getwallpapers.com/wallpaper/full/4/3/d/1139244-download-cute-superhero-wallpaper-2560x1600-desktop.jpg);
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+}
+.conter-img{
+    padding-left: 20%;
+    height: 600px;
+    width: 80%;
+}
+.imagen {
+    height: 100%;
+    width: 100%;
+}
+.input-hero {
+    margin-left: 35%;
+}
+h2, h4 {
+    text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
+    color: rgb(92, 3, 3);
+}
+h4 {
+    margin-right: 30%;
+}
+.tex-hero{
+    margin-top: 20px;
+    text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
+    color: rgb(92, 3, 3);
+    font-size: 20px;
+}
