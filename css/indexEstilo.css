@@ -1,13 +1,32 @@
 body{
+    background-color: #000;
     background-image: url(https://getwallpapers.com/wallpaper/full/4/3/d/1139244-download-cute-superhero-wallpaper-2560x1600-desktop.jpg);
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
+}
+/*menu*/
+nav {
+    background: linear-gradient(-45deg, #d30404, #abe73c, #07094e, #a2e010);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
 }
 .conter-img{
     padding-left: 20%;
     height: 600px;
     width: 80%;
 }
+/*seccion de entrada input*/
 .imagen {
     height: 100%;
     width: 100%;
@@ -15,12 +34,13 @@ body{
 .input-hero {
     margin-left: 35%;
 }
-h2, h4 {
+h2, h3 {
     text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
     color: rgb(92, 3, 3);
 }
-h4 {
+h4, h5, h3 {
     margin-right: 30%;
+    font-size: 18px;
 }
 .tex-hero{
     margin-top: 20px;
@@ -28,3 +48,34 @@ h4 {
     color: rgb(92, 3, 3);
     font-size: 20px;
 }
+/*seccion del card de la llamada a la api*/
+.seccion-cards{
+    margin-top: 10%;
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    height: 50%;
+    background-color: #ffae343f;
+}
+h4, h5, p {
+    color: rgb(217, 236, 48);
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.div-cards {
+
+    background-color: #ffae340c;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+}
+/*footer*/
+.pie{
+    background: repeating-linear-gradient(-45deg, rgba(255, 0, 0, 0.322), rgba(255, 0, 0, 0.233) 5px, rgba(0, 0, 255, 0.192) 5px, rgba(187, 255, 0, 0.199) 10px);
+    background-color: #2e117e33;
+    text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
+    color: rgb(92, 3, 3);
+}
+.conter-footer {
+    background: repeating-linear-gradient(-45deg, red, red 5px, rgba(229, 255, 0, 0.589) 5px, rgba(166, 255, 0, 0.527) 10px);
+}
+
