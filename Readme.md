@@ -18,4 +18,4 @@ Proyecto para OTEC Plataforma 5 Modulo 4 consumiendo Api
  github t3b1
 
 ### Proceso 🔧
-- trabajando en el proyecto
+- terminado
