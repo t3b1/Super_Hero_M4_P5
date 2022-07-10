@@ -8,7 +8,9 @@ export function buscarDatos(data) {
           altura = data.appearance.height,
           ocupacion = data.work.occupation,
           alianzas = data.biography.aliases,
-          conecciones = data.connections.relativ;
+          conecciones = data.connections.relativ,
+          publicado = data.biography.publisher,
+          aparicion = data.biography['first-appearance'];
 
     $("#infoHero").html(`
     <div class="card mb-3 div-cards" style="max-width: 540px;">
@@ -21,9 +23,9 @@ export function buscarDatos(data) {
         <h4 class="card-title">SuperHero Encontrado</h4>
         <h5>Nombre: <span>${nombre}</span></h5>
         <p>Conexiones: <span>${conecciones}</span></p>
-        <p>Publicado Por: <span></span></p>
+        <p>Publicado Por: <span>${publicado}</span></p>
         <p>Ocupacion: <span>${ocupacion}</span></p>
-        <p>Primera Aparicion: <span></span></p>
+        <p>Primera Aparicion: <span>${aparicion}</span></p>
         <p>Altura: <span>${altura}</span></p>
         <p>Peso: <span>${peso}</span></p>
         <p>Alianzas: <span>${alianzas}</span></p>

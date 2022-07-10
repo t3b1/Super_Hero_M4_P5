@@ -16,6 +16,7 @@ formHero.addEventListener('submit', async (e) => {
     buscarDatos(hero);
     verGrafico(hero);
     console.log(hero);
+    inputHero.value = "";
 
 })
 
