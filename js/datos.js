@@ -1,4 +1,3 @@
-
 // funcion que trae los datos
 export function buscarDatos(data) {
 

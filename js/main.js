@@ -2,7 +2,6 @@ import { clave } from './clave.js';
 import { buscarDatos } from './datos.js';
 import { verGrafico } from './grafico.js';
 
-
 //variables html
 const formHero = document.querySelector('#form-hero'),
       inputHero = document.querySelector('#input-hero');
@@ -17,6 +16,5 @@ formHero.addEventListener('submit', async (e) => {
     verGrafico(hero);
     console.log(hero);
     inputHero.value = "";
-
 })
 

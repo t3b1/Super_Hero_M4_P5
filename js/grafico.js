@@ -1,4 +1,3 @@
-
 //funcion que arma y muestra el grafico
 export function verGrafico(data) {
     const inteligencia = data.powerstats.intelligence,
