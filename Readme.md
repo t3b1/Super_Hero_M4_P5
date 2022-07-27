@@ -1,5 +1,5 @@
 # Asincronico Modulo 4
-
+![Image text](img/img-superhero.png)
 # Encuentra tu SuperHero
 
 _ Se soluicita crear una aplicación dinámica que permita a los usuarios buscar un superhéroe y visualizar información referente al personaje buscado.
